@@ -56,7 +56,7 @@ skipTest(
 );
 
 skipTest(
-  "scores 1 for more than twelve characters includes a number and special character	",
+  "scores 7 for more than twelve characters includes a number and special character	",
   function () {
     check(passwordScore("bobbobbob1!2@3#")).isEqualTo(7);
   }
